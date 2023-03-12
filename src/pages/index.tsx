@@ -25,7 +25,7 @@ export default function Home() {
 
       <header className="fixed w-full bg-stone-800 bg-opacity-50 z-10 top-0 flex justify-between  items-center h-[90px] px-10 ">
         <div>
-          <Image src={'/logo.png'} width={80} height={50} className="pt-4"/>
+          <Image src={'/logo.png'} width={80} height={50} className="pt-4" alt='logo'/>
         </div>
         <Link href="#" className="rounded-xl bg-white text-stone-700 px-5 py-2 hover:bg-opacity-90">       
          Get in Touch
